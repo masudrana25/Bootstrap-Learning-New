@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .aa {
+      position: relative;
+      height: 500px;
+      width: 800px;
+      box-sizing: border-box;
+      margin: 0 auto;
+    }
+
+    .aa div{
+      box-sizing: border-box;
+      padding: 5px;
+    }
+
+    .bb {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 20%;
+      width: 20%;
+      height: 80%;
+      font-size: 100px;
+      
+      /* text-align: center;      */
+      border: 1px solid rgb(9, 228, 74);
+    }
+
+    .bb div{
+      position: absolute;
+      box-sizing: border-box;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .cc {
+      position: absolute;
+      top: 0;
+      bottom: 20%;
+      left: 20%;
+      width: 60%;
+      height: 80%;
+      border: 1px solid red;
+    }
+
+img{
+  width: 100%;
+  height: 100%;
+}
+ 
+
+    .dd {
+      position: absolute;
+      top: 0;
+      left: 80%;
+      right: 0;
+      bottom: 20%;
+      width: 20%;
+      height: 80%;
+      font-size: 100px;
+      
+      border: 1px solid rgb(20, 20, 20);
+    }
+
+    .dd > div{
+      position: absolute;
+      box-sizing: border-box;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .ee {
+      position: absolute;
+      top: 80%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 20%;
+      
+      border: 1px solid rgb(165, 223, 6);
+    }
+
+    .ee > div{
+      position: absolute;
+      box-sizing: border-box;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .ee > div > span{
+      display: inline-block;
+      border-radius: 10px;
+      width: 60px;
+      height: 5px;
+      background-color: aqua;
+      margin-right: 10px;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <div class="aa">
+    <div class="bb">
+      
+      <div><</div>
+    </div>
+
+    <div class="cc">
+      <img src="./Nature 2.png" alt="">
+    </div>
+
+    <div class="dd">
+      <div> > </div>
+    </div>
+    <div class="ee">
+      <div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
