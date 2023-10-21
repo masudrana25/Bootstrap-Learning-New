@@ -1,0 +1,26 @@
+
+
+
+
+/* Navbar Section Starts Here */
+.navbar-section{
+  background-color: #837c72;
+}
+
+.navbar-section a{
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: all 0.6s;
+}
+
+.navbar-section a:hover{
+  background-color: #1162A3;
+  color: white;
+  transform: scale(1.1);
+}
+
+
+
+
+/* Navbar Section Ends Here */
