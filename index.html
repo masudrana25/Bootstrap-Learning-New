@@ -12,29 +12,15 @@
 
 <body class="mt-5 mb-5 container">
 
-  <div>
 
-    <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
-      data-bs-placement="top" data-bs-content="Top popover">
-      Popover on top
-    </button>
-
-    <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
-      data-bs-title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">
-      Dismissible popover
-    </a>
-
-  </div>
-
-
+  <div class="vr"></div>
+  <div class="vr"></div>
+  <div class="vr"></div>
 
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
-    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
-  </script>
+
 </body>
 
 </html>
